@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/intervInfoID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intervention ID"
+        android:textColor="#225C25"
+        android:textSize="35sp"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/intervInfoIDinp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/interInfoIntervener"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intervener"
+        android:textColor="#225C25"
+        android:textSize="35sp"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/intervInfoIntervenerInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/intervInfoDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Description"
+        android:textColor="#225C25"
+        android:textSize="35sp"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/intervInfoDescInp"
+        android:layout_width="match_parent"
+        android:layout_height="126dp"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <TextView
+        android:id="@+id/intervInfoReq"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Requester"
+        android:textColor="#225C25"
+        android:textSize="35sp"
+        app:fontFamily="serif" />
+
+    <TextView
+        android:id="@+id/intervInfoReqInp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/btnEdit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C1009650"
+        android:text="Complete Intervention" />
+
+</LinearLayout>

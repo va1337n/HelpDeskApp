@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">NOVEC Help Desk</string>
+    <!--Other string resources also defined in this file… -->
+    <string name="priorityType1">1</string>
+    <string name="priorityType2">2</string>
+    <string name="priorityType3">3</string>
+
+    <string name="type1">Affectation</string>
+    <string name="type2">Approvisionnement</string>
+    <string name="type3">Réparation</string>
+
+    <string name="categoryType1">Accés et habilitations</string>
+    <string name="categoryType2">Achat sur affaire</string>
+    <string name="categoryType3">Donnes</string>
+    <string name="categoryType4">Entretien Bâtiment</string>
+    <string name="categoryType5">Equipement Chantier</string>
+    <string name="categoryType6">Fourniture</string>
+    <string name="categoryType7">Gestion Magasin</string>
+    <string name="categoryType8">Hardware</string>
+    <string name="categoryType9">Logiciel</string>
+    <string name="categoryType10">Materiel Informatique</string>
+    <string name="categoryType11">Mise à jour</string>
+    <string name="categoryType12">Mobilier</string>
+    <string name="categoryType13">Mobilité</string>
+    <string name="categoryType14">Nouvelle Application</string>
+    <string name="categoryType15">Réseau et Telecom</string>
+    <string name="categoryType16">Réseau et téléphone</string>
+    <string name="categoryType17">Software</string>
+    <string name="categoryType18">Système</string>
+
+    <string name="etatType1">2 H. Ouvrables</string>
+    <string name="etatType2">4 J. Ouvrables</string>
+    <string name="etatType3">6 S. Ouvrables</string>
+
+</resources>

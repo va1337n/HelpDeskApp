@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ScrollView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <!--Put form controls here-->
+        <TextView
+            android:id="@+id/intervItemFirstTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:fontFamily="serif"></TextView>
+
+        <TextView
+            android:id="@+id/actionTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Action"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/actionInp"
+            android:layout_width="408dp"
+            android:layout_height="wrap_content"
+            android:hint="Action"
+            android:inputType="textMultiLine"
+            android:lines="5"></EditText>
+
+        <TextView
+            android:id="@+id/libreTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Libre"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/libreInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Libre"
+            android:inputType="textMultiLine"
+            android:lines="2" />
+
+        <TextView
+            android:id="@+id/prptyTxt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proprieté 1"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/prprtyfirstInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Proprieté 1"
+            android:inputType="textMultiLine"
+            android:lines="2" />
+
+        <TextView
+            android:id="@+id/prptyTxt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Proprieté 2"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/prprtyscndInp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Proprieté 2"
+            android:inputType="textMultiLine"
+            android:lines="2" />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="16dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/intervItemScndTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Qualification"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/priorityTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Priorité"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <Spinner
+            android:id="@+id/prioritySpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:entries="@array/prioritytypelist"></Spinner>
+
+        <TextView
+            android:id="@+id/typeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+        <Spinner
+            android:id="@+id/typeSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:entries="@array/typelist"></Spinner>
+
+        <TextView
+            android:id="@+id/categoryTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Catégorie"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+        <Spinner
+            android:id="@+id/categorySpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:entries="@array/categorylist"></Spinner>
+
+        <TextView
+            android:id="@+id/etatTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Etat Reauverture"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <Spinner
+            android:id="@+id/etatSpinner"
+            android:layout_width="fill_parent"
+            android:layout_height="31dp"
+            android:entries="@array/etatList"></Spinner>
+
+        <View
+            android:id="@+id/divider3"
+            android:layout_width="match_parent"
+            android:layout_height="14dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/intervItemThirdText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temps"
+            android:textColor="#000000"
+            android:textSize="30sp"
+            app:fontFamily="serif" />
+
+        <TextView
+            android:id="@+id/debutTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Début prévu"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/debutInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Début prévue"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/debutRealTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Début réel"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/debutRealInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Début réel"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/finTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fin prévue"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/finInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fin prévue"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/finRealTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fin réelle"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/finRealInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Fin réelle"
+            android:inputType="date" />
+
+        <TextView
+            android:id="@+id/durationTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Durée prévue"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/durationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durée prévue"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/totalDurationTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Durée totale"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/totalDurationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Durée totale"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/alarmeTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alarme"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/alarmeInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Alarme"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/realisationTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Réalisation %"
+            android:textColor="#113F14"
+            android:textSize="20sp"
+            app:fontFamily="serif" />
+
+        <EditText
+            android:id="@+id/realisationInput"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Réalisation %"
+            android:inputType="text" />
+
+        <Button
+            android:id="@+id/btnComplete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#1F5822"
+            android:text="Complete Intervention" />
+
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="prioritytypelist">
+        <item>@string/priorityType1</item>
+        <item>@string/priorityType2</item>
+        <item>@string/priorityType3</item>
+    </string-array>
+
+    <string-array name="typelist">
+        <item>@string/type1</item>
+        <item>@string/type2</item>
+        <item>@string/type3</item>
+    </string-array>
+
+    <string-array name="categorylist">
+        <item>@string/categoryType1</item>
+        <item>@string/categoryType2</item>
+        <item>@string/categoryType3</item>
+        <item>@string/categoryType4</item>
+        <item>@string/categoryType5</item>
+        <item>@string/categoryType6</item>
+        <item>@string/categoryType7</item>
+        <item>@string/categoryType8</item>
+        <item>@string/categoryType9</item>
+        <item>@string/categoryType10</item>
+        <item>@string/categoryType11</item>
+        <item>@string/categoryType12</item>
+        <item>@string/categoryType13</item>
+        <item>@string/categoryType14</item>
+        <item>@string/categoryType15</item>
+        <item>@string/categoryType16</item>
+        <item>@string/categoryType17</item>
+        <item>@string/categoryType18</item>
+
+    </string-array>
+
+    <string-array name="etatList">
+        <item>@string/etatType1</item>
+        <item>@string/etatType2</item>
+        <item>@string/etatType3</item>
+    </string-array>
+
+</resources>
